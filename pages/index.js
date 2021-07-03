@@ -1,65 +1,58 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="overflow-h">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Reinards.lv - Sākumlapa</title>
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <div className="index-flex vh-100-l">
+        
+        <div className="w-100 w-50-l vh-50 vh-100-l relative">
+          <div className="vh-50 vh-100-l flex items-center justify-center">
+            <div>
+              <span className="f4 f3-ns fw-300">Ar ko varu Tev palīdzēt?</span>
+              <h1 className="header-1">Reinards Jānis <br/> Saulītis</h1>
+              {/* <div className="flex"> */}
+                {/* <Link href="/">
+                  <a className="f4 link black o-90 accent-hover">Par mani</a>
+                </Link>
+                <span className="ph2 f4 o-90">//</span> */}
+              {/* </div> */}
+              <a href="mailto:reinardssaulitis@gmail.com" className="f5 f4-ns link index-email-banner">reinardssaulitis@gmail.com</a>
+            </div>
+          </div>
+          {/* <a href="emailto:reinardssaulitis@gmail.com" className="index-email-banner pv4 ph5 f4 link white">reinardssaulitis@gmail.com</a> */}
         </div>
-      </main>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+        <div className="w-100 w-50-l">
+          <div className="flex flex-wrap ">
+            <Link href="dizains">
+              <a className="w-100 w-50-m w-50-l w-50-xl vh-50 index-service-block isb-bg1">
+                <h2 className="">Grafiskais Dizains, UX, Māksla</h2>
+              </a>
+            </Link>
+            <Link href="majaslapas">
+              <a className="w-100 w-50-m w-50-l w-50-xl vh-50 index-service-block isb-bg2">
+                <h2 className="">Mājaslapu Optimizācija</h2>
+              </a>
+            </Link>
+            <Link href="brends">
+              <a className="w-100 w-50-m w-50-l w-50-xl vh-50 index-service-block isb-bg3">
+                <h2 className="">Brenda Stratēģija un Tēls</h2>
+              </a>
+            </Link>
+            <Link href="socialie-tikli">
+              <a className="w-100 w-50-m w-50-l w-50-xl vh-50 index-service-block isb-bg4">
+                <h2 className="">Sociālie tīkli un saturs</h2>
+              </a>
+            </Link>
+          </div>
+        </div>
+      </div>
+
     </div>
   )
 }

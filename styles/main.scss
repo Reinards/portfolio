@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+@import "./tachyons.scss";
+@import "./components.scss";
+@import "./colors.scss";
+
+* {
+    font-family: 'Roboto', sans-serif;
+
+    &::selection {
+        background: lighten($accent,20);
+    }
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.main-container {
+    width: 90vw;
+    margin-top: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and(min-width: 425px) {
+        font-size: 3rem;
+    }
+
+    @media screen and(min-width: 1280px) {
+        width: 60vw;
+        margin-top: 10vw;
+    }
+}
+
+.lh-0 {
+    line-height: 0;
+
+    img {
+        line-height: 0;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.cp {
+    cursor: pointer;
+}
+
+.cc {
+    cursor: crosshair;
+}
+
+.overflow-h {
+    overflow: hidden;
+}

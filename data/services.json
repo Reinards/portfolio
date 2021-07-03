@@ -1,0 +1,70 @@
+{
+    "design": {
+        "title": "Grafiskais Dizains, UX, Māksla",
+        "pageTitle": "Grafiskais Dizains, UX, Māksla",
+        "pageDesc": "For google",
+        "pageDescLong": "Korporatīvi vai izklaidei, dizains ir valoda un tajā jāprot runāt. Palīdzēšu Tev ar visdažādākajiem dizaina darbiem - mājaslapas dizains, logo, vektorgrafikas ilustrācijas, mobilo lietotņu dizains, vizītkartes, uzlīmes u.c. Man svarīgi ir palīdzēt atrisināt Tavu problēmu, ievērojot moderna dizaina principus un tajā pašā laikā sniedzot taviem klientiem fantastisku pieredzi jeb UX.",
+        "posts": {
+            "0": {
+                "title": "Logo remade",
+                "desc": "something about the post",
+                "thumbnail": "https://via.placeholder.com/500",
+                "fullRes": "https://via.placeholder.com/1400"
+            },
+            "1": {
+                "title": "Logo remade 2",
+                "desc": "something about the post 2",
+                "thumbnail": "https://via.placeholder.com/500",
+                "fullRes": "https://via.placeholder.com/1400"
+            },
+            "2": {
+                "title": "Logo remade 2",
+                "desc": "something about the post 2",
+                "thumbnail": "https://via.placeholder.com/500",
+                "fullRes": "https://via.placeholder.com/1400"
+            }
+        }
+    },
+    "websites": {
+        "title": "Mājaslapu Optimizācija",
+        "pageTitle": "Mājaslapu Optimizācija",
+        "pageDesc": "For google",
+        "pageDescLong": "Mājaslapa var tev gūt ienākumus vai arī būt par lieku izdevumu, ja izveidota pavirši. Es atradīšu visus šķēršļus, kas tavai mājaslapai neļauj darboties teicami un došu praktiskus ieteikumus to novēršanai. Vienalga vai tie ir neapstrādāti attēli, nedrošs savienojums, mēstules, klientu zudums vai atpalicis dizains, spēju tev palīdzēt. Mājaslapu vai mobilo lietotņu izstrāde no 0 ir iespējama iepriekš vienojoties.",
+        "posts": {
+            "0": {
+                "title": "Logo remade",
+                "desc": "something about the post",
+                "thumbnail": "https://via.placeholder.com/500",
+                "fullRes": "https://via.placeholder.com/1400"
+            }
+        }
+    },
+    "brand": {
+        "title": "Brenda Stratēģija un Tēls",
+        "pageTitle": "Brenda Stratēģija un Tēls",
+        "pageDesc": "For google",
+        "pageDescLong": "Brends nav tikai logo! Brends nav arī mārketings. Brends ir Tavas attiecības ar taviem klientiem/faniem vai sekotājiem. Tas ir kā viņi tevi redz un kādu pozīciju tu esi ieņēmis viņu prātos. Šī pozīcija ir tas, kas nosaka vai viņi izvēlēsies tevi vai tavu konkurentu. Tu vari šo ietekmēt gan veicot dizaina labojumus brenda tēlā gan arī izstrādājot brenda stratēģiju pēc kuras veikt mārketingu vai pat iekārtot biroja telpas. Šajā jomā sniedzu 2 bezmaksas konsultācijas. Pirmo lai kārtīgi izstāstītu, kas ir brends, kādēļ tas ir svarīgi. Otrā, lai noteiktu tava brenda pašreizējo stāvokli un kas iespējams būtu jālabo. Tiekamies!",
+        "posts": {
+            "0": {
+                "title": "Logo remade",
+                "desc": "something about the post",
+                "thumbnail": "https://via.placeholder.com/500",
+                "fullRes": "https://via.placeholder.com/1400"
+            }
+        }
+    },
+    "media": {
+        "title": "Sociālie Tīkli un Saturs",
+        "pageTitle": "Sociālie Tīkli un Saturs",
+        "pageDesc": "For google",
+        "pageDescLong": "Sociālie tīkli ir viena no lietām, kas mūsdienu biznesiem ir neatņemama sastāvdaļa. Caur tiem ir iespēja sasniegt miljoniem cilvēku visā pasaulē. Dabīgā ceļā ir iespējams izveidot lojālu kopienu, kas tevi atbalstīs un palīdzēs sasniegt tavus mērķus. Es tev palīdzu saprast, kuras platformas tavam biznesam ir visizdevīgākās, izstāstīšu kā tās strādā un kopā izveidosim plānu, pēc kura veidot taviem klientiem noderīgu saturu, lai radītu viņos interesi par tavu biznesu.",
+        "posts": {
+            "0": {
+                "title": "Logo remade",
+                "desc": "something about the post",
+                "thumbnail": "https://via.placeholder.com/500",
+                "fullRes": "https://via.placeholder.com/1400"
+            }
+        }
+    }
+}
