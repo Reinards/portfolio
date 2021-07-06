@@ -1,155 +1,75 @@
 @import "./colors.scss";
+@import "./bp.scss";
 
-.index-email-banner {
-    // color: darken($accent,40);
-    // background-color: lighten($accent,35);
-    padding: 20px;
-    // transition: color 0.5s ease, border 0.7s ease, background-color 0.7s !important;
-    transition: all 0.5s ease !important;
-    color: white;
-    background-color: $accent;
-    border: 2px solid $accent;
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-
-    box-shadow: 0px 5px 10px -2px rgba(71, 10, 112, 0.3);
+.header-1 {
     
-    &:hover{
-        transform: translateY(-5px);
-        box-shadow: 0px 5px 20px rgba(71, 10, 112, 0.3);
-    }
+    font-size: 2.5rem;
 
-    @media screen and(min-width: 768px) {
-        width: auto;
-        text-align: left;
-    }
-
-}
-
-.index-service-block {
-    position: relative;
-    overflow: hidden;
-
-    background-size: cover;
-    background-position: center;
-
-    h2 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        color: white;
-        text-align: center;
-        font-weight: 500;
-        background-color: black;
-        max-width: 50%;
-        text-align: left;
-        margin: 0;
-        padding: 20px;
-        
-        
-        @media screen and(min-width: 425px) {
-            font-size: 1.2rem;
-        }
-        
-        @media screen and(min-width: 1280px) {
-            bottom: 5%;
-            left: 50%;
-            transform: translateX(-50%);
-            top: unset;
-            text-align: center;
-            font-size: 1.2rem;
-        }
-    }
-
-    
-    &::after {
-        transition-duration: 0.5s;
-        content: '';
-        display: block;
-        width: 94%;
-        height: 94%;
-        top: calc(3% - 4px);
-        left: calc(3% - 4px);
-        position: absolute;
-        border: 4px solid white;
-        opacity: 0;
-    }
-
-    &:hover {
-        &:after {
-            opacity: 0.8;
-        }
+    @include bp-min($bp-tablet) {
+        font-size: 4rem;
     }
 }
 
-.isb-bg1 {
-    background-image: url("../img//design-category.svg");
+$container-width-desktop: 50%;
+$container-width-tablet: 70%;
+$container-width-mobile: 95%;
+
+.main-container {
+    width: $container-width-mobile;
+    margin: auto;
+
+    @include bp-min($bp-tablet) {
+        width: $container-width-tablet;
+    }
+
+    @include bp-min($bp-desktop) {
+        width: $container-width-desktop;
+    }
 }
 
-.isb-bg2 {
-    background-image: url("../img//websites-category.svg");
-}
 
-.isb-bg3 {
-    background-image: url("../img//brand-category.svg");
-}
 
-.isb-bg4 {
-    background-image: url("../img//media-category.svg");
-}
+//Desktop VGap Size = 10px
 
-.index-flex {
+.portfolio-row {
     display: flex;
-    flex-direction: column;
-
-    @media screen and(min-width: 769px) {
+    flex-wrap: wrap;
+    
+    @include bp-min($bp-tablet) {
+        justify-content: space-between;
         flex-direction: row;
     }
 }
 
-.header-1 {
-    font-size: 12vw;
-
-    @media screen and(min-width: 425px) {
-        font-size: 2.5rem;
-    }
-
-    @media screen and(min-width: 769px) {
-        font-size: 3rem;
-    }
-
-    @media screen and(min-width: 1280px) {
-        font-size: 4.5rem;
+.portfolio-col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    @include bp-min($bp-tablet) {
+        width: calc(33.333% - 15px);
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
     }
 }
 
-.header-2 {
-    font-size: 2rem;
+.portfolio-item {
+    background-color: $gray3;
+    min-height: 200px;
+}
 
-    @media screen and(min-width: 425px) {
-        font-size: 3rem;
-    }
+.portfolio-item--v2 {
+    min-height: 200px;
 
-    @media screen and(min-width: 1280px) {
-        font-size: 3rem;
+    @include bp-min($bp-tablet) {
+        min-height: 100%;
     }
 }
 
-.header-accent-block {
-    position: absolute;
-    background-color: $accent;
-    width: 120%;
-    height: 30px;
-    left: -10%;
-    bottom: -5px;
-    z-index: -1;
-    opacity: 0.9;
-}
+.v-gap {
 
-.accent-hover{
-    transition-duration: 0.25s;
-    &:hover {
-        color: $accent;
+    @include bp-min($bp-tablet) {
+        margin-bottom: 25px;
     }
 }

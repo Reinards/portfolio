@@ -1,0 +1,14 @@
+@import "../../styles/colors.scss";
+
+#navbar {
+    border-bottom: 1px solid $gray1;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: $gray2;
+    font-weight: 400;
+}
