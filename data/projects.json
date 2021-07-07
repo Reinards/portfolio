@@ -1,45 +1,51 @@
 {
     "vdc": {
+        "projectHref": "",
         "title": "Veģetatīvās Distonijas Centrs",
         "show-title": 1,
         "show-tint": 1,
-        "url": "https://www.vdce.lv/img2.jpg",
+        "url": "vdc/vdc-1.jpg",
         "href": "https://vdce.lv",
         "show-href": 1
     },
     "chalete": {
+        "projectHref": "",
         "title": "Chalete",
         "show-title": 1,
         "show-tint": 1,
-        "url": "https://chalete.eu/static/49a4fc959284528cd04cc0dbcf8b220d/670ae/amonn-color-papildinosie.jpg",
+        "url": "chalete/chalete-1.png",
         "href": "https://chalete.eu",
         "show-href": 1
     },
     "lmg": {
+        "projectHref": "",
         "title": "LM Group Buve",
         "show-title": 1,
         "show-tint": 1,
-        "url": "https://www.lmgroup.lv/project_img/23/1.jpg",
+        "url": "lmg/lmg-6.jpg",
         "href": "https://lmgroup.lv",
         "show-href": 1
     },
     "tiks": {
+        "projectHref": "",
         "title": "Saldus TIKS Centrs",
         "show-title": 1,
         "show-tint": 1,
-        "url": "http://tehnika.saldus.lv/static/2-e6f2af015d8f7f5b50b4d42f4ad54438.jpg",
+        "url": "tiks/tiks-1.png",
         "href": "",
         "show-href": 0
     },
     "kapellerunams": {
+        "projectHref": "",
         "title": "Kapelleru Nams",
         "show-title": 1,
         "show-tint": 1,
-        "url": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.J-JDZZxBAccD9AQ6NPWlRQHaEK%26pid%3DApi&f=1",
+        "url": "kapellerunams/kapellerunams-1.png",
         "href": "",
         "show-href": 0
     },
     "rosaella": {
+        "projectHref": "",
         "title": "Rosaella EKO Skrubji",
         "show-title": 1,
         "show-tint": 1,
@@ -48,6 +54,7 @@
         "show-href": 0
     },
     "ommmsome": {
+        "projectHref": "",
         "title": "Ommmsome",
         "show-title": 1,
         "show-tint": 1,

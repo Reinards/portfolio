@@ -1,0 +1,25 @@
+@import "../styles/bp.scss";
+
+.blog-h1 {
+    font-family: "Lora";
+    font-weight: 500;
+    font-size: 2.3rem;
+
+    @include bp-min($bp-tablet) {
+        font-size: 3rem;
+    }
+}
+
+.blog-paragraph {
+    color: $gray2;
+    text-align: justify;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    // font-weight: 300;
+
+    @include bp-min($bp-tablet) {
+        line-height: 32px;
+    }
+}

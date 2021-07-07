@@ -1,4 +1,5 @@
 import { Component } from "react";
+import Link from "next/link"
 
 class PostListItem extends Component {
 
@@ -10,11 +11,15 @@ class PostListItem extends Component {
         return (
             <div className={this.props.hasBottomPadding ? "pb3 pb5-ns" : ""}>
                 <div className="flex items-center">
-                    <h2 className="accent fw-500 pr3 ma0 pb0">{this.props.title}</h2>
-                    <p className="ma0 pa0 i">{this.props.date}</p>
+                    <Link href={this.props.href}>
+                        <a className="link">
+                            <h2 className="accent fw-500 pr3 ma0 pb0">{this.props.title}</h2>
+                        </a>
+                    </Link>
+                    {/* <p className="ma0 pa0 i">{this.props.date}</p> */}
                     {/* TODO: Share Btn */}
                 </div>
-                <p className="tj">{this.props.children}</p>
+                <p className="paragraph">{this.props.children}</p>
             </div>
         )
     }

@@ -1,6 +1,6 @@
 import css from './navbar.module.scss';
 import { Component } from "react";
-import Link from 'next/link'
+import LinkPlus from '../link-plus';
 
 class Navbar extends Component {
 
@@ -13,15 +13,15 @@ class Navbar extends Component {
             <nav id={css.navbar}>
                 {/* <div className="toggleWrap">bars</div> */}
                 <div className="flex justify-center items-center pa4">
-                    <Link href="/">
+                    <LinkPlus href="/" exact activeClassName={css.active}>
                         <a className={css.link+" f6"}>Sākums</a>
-                    </Link>
-                    <Link href="pakalpojumi">
+                    </LinkPlus>
+                    <LinkPlus href="/pakalpojumi" exact activeClassName={css.active}>
                         <a className={css.link+" f6"}>Pakalpojumi</a>
-                    </Link>
-                    <Link href="blogs">
+                    </LinkPlus>
+                    <LinkPlus href="/blogs" activeClassName={css.active}>
                         <a className={css.link+" f6"}>Blogs</a>
-                    </Link>
+                    </LinkPlus>
                 </div>
             </nav>
         )
