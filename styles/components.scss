@@ -75,6 +75,11 @@ $blog-container-width-mobile: 95%;
 .portfolio-item {
     background-color: $gray3;
     min-height: 200px;
+    margin-bottom: 10px;
+
+    @include bp-min($bp-tablet) {
+        margin-bottom: unset;
+    }
 }
 
 .portfolio-item--v2 {
