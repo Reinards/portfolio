@@ -9,7 +9,7 @@ class PostListItem extends Component {
 
     render() {
         return (
-            <div className={this.props.hasBottomPadding ? "pb3 pb5-ns" : ""}>
+            <div className={this.props.hasBottomPadding ? "mb3 mb4-ns border-bottom" : ""}>
                 <div className="flex items-center">
                     <Link href={this.props.href}>
                         <a className="link">
@@ -19,7 +19,7 @@ class PostListItem extends Component {
                     {/* <p className="ma0 pa0 i">{this.props.date}</p> */}
                     {/* TODO: Share Btn */}
                 </div>
-                <p className="paragraph">{this.props.children}</p>
+                <p className="paragraph mt1 mb3 mb4-ns">{this.props.children}</p>
             </div>
         )
     }

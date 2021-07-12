@@ -10,7 +10,7 @@ export default function Blog() {
     title="LM Group Buve Brendings un Mājaslapas Izstrāde">
 
         <P>
-          Pēdējo 3 gadu laikā, sadarbojoties ar LM Group Buve, mēs esam veikuši vairākus veiksmīgus projektus, kuri visi ir attīstījuši kompānijas digitālo aspektu. Mēs veicām mājaslapas izstrādi, vizuālās identitātes izveidi, sociālo tīklu mārketinga kampaņas, konkursus un arī esam strādājuši pie brenda stratēģijas.
+          Pēdējo 3 gadu laikā, sadarbojoties ar LM Group Buve, mēs esam veikuši vairākus veiksmīgus projektus, kuri visi ir attīstījuši kompānijas digitālo aspektu. Esam veikuši mājaslapas izstrādi, vizuālās identitātes izveidi, sociālo tīklu mārketinga kampaņas, konkursus un arī esam strādājuši ar brenda būvēšanu.
         </P>
         
         <Image src="/projects/lmg/lmg-4.png" layout="responsive" width="1800" height="1370" placeholder="blur" blurDataURL="/projects/lmg/lmg-4.png" />

@@ -140,3 +140,7 @@ $blog-container-width-mobile: 95%;
         }
     }
 }
+
+.border-bottom {
+    border-bottom: 1px solid darken($gray3,2);
+}

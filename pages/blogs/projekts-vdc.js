@@ -21,9 +21,9 @@ export default function Blog() {
         <P>
             VDC klienti ir cilvēki, kuriem ikdienā ir pietiekami daudz stresa un savu problēmu, par kurām domāt. Šādi cilvēki novērtēs dizainu, kas tiem neliek domāt. Tie novērtēs katru sīkumiņu, kas viņu pieredzi šajā mājaslapā atvieglos kaut par mazumiņu.
             <br/><br/>
-            Sākot ar navigācijas novietojumu un beidzot ar iespēju navigāciju atvērt/aizvērt izmantojot SWIPE darbību (pavelkot ar pirkstu) - viss ir pēc iespējas vairāk pielāgots, lai mājaslapu būtu ērti lietot un informāciju viegli uztvert.
+            Sākot ar navigācijas novietojumu un beidzot ar iespēju navigāciju atvērt/aizvērt izmantojot SWIPE darbību (pavelkot ar pirkstu) - viss ir pēc iespējas vairāk pielāgots, lai mājaslapa būtu ērti lietojama un informācija viegli uztverama.
             <br/><br/>
-            Viss šis var likties lieki cilvēkiem, kas tikai orientēti uz rezultātiem un conversions, taču jāatceras, ka arī Google un citi meklētāji priekšroku dod mājaslapām, kuras ir ērti lietojamas. Google zina patiešām visu par tavu mājaslapu.
+            Viss šis var likties lieki cilvēkiem, kas ir orientēti tikai uz peļņu un conversions, taču jāatceras, ka arī Google un citi meklētāji priekšroku dod mājaslapām, kuras ir ērti lietojamas. Google zina patiešām visu par tavu mājaslapu.
         </P>
         
         <H2>Logo Labojumi</H2>
@@ -32,12 +32,15 @@ export default function Blog() {
             1. Tas ir tikai vienā izmērā (Nav responsīvs)<br/>
             2. Kontrasts starp krāsām ir pārāk neliels<br/><br/>
             
+            <Image src="/projects/vdc/vdc-4.png" layout="responsive" width="1920" height="2036" placeholder="blur" blurDataURL="/projects/vdc/vdc-4.png" />
             Mūsdienās nepietiek tikai ar vienu logo failu, jo logo var tikt izmantots kā uz gigantiskiem reklāmu plakātiem tā uz miniatūrām ikonām Apple Watch ierīcēs. Attiecīgi, dizaina gaitā ir nepieciešams izveidot vairākas versijas ar atšķirīgu detaļu līmeni. Piemēram, viens no variantiem ir logo, kas paredzēts izmantošanai mājaslapas "favicon" vietā. Šī ikona nav lielāka par 32 pikseļiem. Šādos izmēros nav iespējams ievietot gan logo gan tekstu tā lai to varētu salasīt. Turpretim šādu logo versiju nav loģiski izmantot tad, ja logo tiek ievietots mājaslapā kā bilde, kur ir daudz vairāk vietas detaļām.
             Nav jāveic milzīgas izmaiņas pašā logo, pietiek izveidot 3 līdz 5 dažādas logo versijas un pārliecināties, ka katras versijas logo ir viegli saskatāms un tajā nav nekā lieka.
             
             <br/><br/>
             
-            Otrais punkts ir svarīgs tādēļ, ka logo ne vienmēr tiek skatīts perfektos apstākļos. Ja nu tavs klients tavu logo apskata pa ceļam uz parku? Šādā situācijā uz telefona ekrāna krīt saules stari un uz ekrāna veidojas atspulgs, kas traucē saskatīt jebko. Ja starp logo fonu un pašu logo nav pietiekami liels kontrasts, var būt ļoti lielas grūtības kaut ko saskatīt. Tādēļ ir pieņemtas proporcijas, kuras ir pietiekami lielas, lai iepriekš minētā problēma nebūtu tik dramatiska.
+            <Image src="/projects/vdc/vdc-2.png" layout="responsive" width="1128" height="435" placeholder="blur" blurDataURL="/projects/vdc/vdc-2.png" />
+            <Image src="/projects/vdc/vdc-3.png" layout="responsive" width="1130" height="440" placeholder="blur" blurDataURL="/projects/vdc/vdc-3.png" />
+            Otrais punkts ir svarīgs tādēļ, ka logo ne vienmēr tiek skatīts perfektos apstākļos un pasaulē eksistē arī cilvēki ar redzes problēmām. Ja starp logo fonu un pašu logo nav pietiekami liels kontrasts, var būt ļoti lielas grūtības kaut ko saskatīt, piemēram, tiešā saules apgaismojumā vai cilvēkiem ar . Tādēļ ir pieņemtas proporcijas, kuras ir pietiekami lielas, lai iepriekš minētā problēma nebūtu tik dramatiska.
             
             <br/><br/>
             
@@ -45,7 +48,6 @@ export default function Blog() {
         </P>
 
         
-        {/* <Image src="/projects/lmg/lmg-4.png" layout="responsive" width="1800" height="1370" placeholder="blur" blurDataURL="/projects/lmg/lmg-4.png" /> */}
 
     </BlogLayout>
   )

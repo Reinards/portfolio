@@ -1,1 +1,5 @@
-5. Add texts & images to services
+    "post-1": {
+        "title": "Viss, kas Tev jāzina par brendingu",
+        "intro": "Ja plāno savam uzņēmumam piesaistīt brendinga speciālistu tev jāzina, ka...",
+        "url": "kas-jazina-par-brendingu"
+    },
