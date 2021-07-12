@@ -1,0 +1,27 @@
+{
+    "lmg": {
+        "title": "LM Group Buve Brendings un Mājaslapas Izstrāde",
+        "intro": "Arī celtniecības kompānijām ir vērts izveidot mājaslapu un būt sociālajos tīklos.",
+        "url": "projekts-lmg"
+    },
+    "chalete": {
+        "title": "Par Projektu Chalete",
+        "intro": "Sākot ar online katalogu un beidzot ar Shopify eCommerce.",
+        "url": "projekts-chalete"
+    },
+    "vdc": {
+        "title": "Projekts Veģetatīvās Distonijas Centrs",
+        "intro": "Par mājaslapu ir jārūpējas regulāri.",
+        "url": "projekts-vdc"
+    },
+    "tiks": {
+        "title": "Saldus TIKS Lietotņu Izstrāde",
+        "intro": "Uzzini, kā mēneša laikā tika izveidota lietotne nelielam budžetam.",
+        "url": "projekts-tiks"
+    },
+    "kapellerunams": {
+        "title": "Kapelleru Nama Projekts - Mobilās Lietotnes Izstrāde",
+        "intro": "Alternatīvs veids kā izstrādāt mobilās lietotnes.",
+        "url": "projekts-kapelleru-nams"
+    }
+}

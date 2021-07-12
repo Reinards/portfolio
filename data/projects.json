@@ -1,6 +1,6 @@
 {
     "vdc": {
-        "projectHref": "https://reinards.lv",
+        "projectHref": "/blogs/projekts-vdc",
         "title": "Veģetatīvās Distonijas Centrs",
         "show-title": 1,
         "show-tint": 1,
@@ -9,7 +9,7 @@
         "show-href": 1
     },
     "chalete": {
-        "projectHref": "https://reinards.lv",
+        "projectHref": "/blogs/projekts-chalete",
         "title": "Chalete",
         "show-title": 1,
         "show-tint": 1,
@@ -18,7 +18,7 @@
         "show-href": 1
     },
     "lmg": {
-        "projectHref": "https://reinards.lv",
+        "projectHref": "/blogs/projekts-lmg",
         "title": "LM Group Buve",
         "show-title": 1,
         "show-tint": 1,
@@ -27,7 +27,7 @@
         "show-href": 1
     },
     "tiks": {
-        "projectHref": "https://reinards.lv",
+        "projectHref": "/blogs/projekts-tiks",
         "title": "Saldus TIKS Centrs",
         "show-title": 1,
         "show-tint": 1,
@@ -36,7 +36,7 @@
         "show-href": 0
     },
     "kapellerunams": {
-        "projectHref": "https://reinards.lv",
+        "projectHref": "/blogs/projekts-kapelleru-nams",
         "title": "Kapelleru Nams",
         "show-title": 1,
         "show-tint": 1,

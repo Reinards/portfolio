@@ -108,6 +108,11 @@ $blog-container-width-mobile: 95%;
 
     @include bp-min($bp-tablet) {
         line-height: 32px;
+        font-size: 20px;
+    }
+    
+    @include bp-min($bp-desktop) {
+        font-size: 22px;
     }
 }
 

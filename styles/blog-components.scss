@@ -10,6 +10,11 @@
     }
 }
 
+.blog-h2 {
+    font-family: "Lora", "Serif";
+    font-weight: 500;
+}
+
 .blog-paragraph {
     color: $gray2;
     text-align: justify;
@@ -21,5 +26,11 @@
 
     @include bp-min($bp-tablet) {
         line-height: 32px;
+        font-size: 20px;
+    }
+    
+    @include bp-min($bp-desktop) {
+        font-size: 20px;
+        word-spacing: 4px;
     }
 }

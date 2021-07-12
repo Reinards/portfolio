@@ -3,6 +3,33 @@ import PostListItem from '../components/blog/post-list-item'
 import DefaultLayout from '../layouts/default-layout'
 import ContactMeBanner from "../components/contact-me-banner/contact-me-banner"
 import PageHeader from '../components/page-header/page-header'
+import PostData from "../data/posts.json";
+
+let PostDataHtml = Object.keys(PostData).map((item, i) => {
+  
+  if(i < Object.keys(PostData).length-1) {
+    return (
+      <PostListItem
+        key={i}
+        hasBottomPadding
+        href={"/blogs/"+PostData[item]['url']}
+        title={PostData[item]['title']}>
+        {PostData[item]['intro']}
+      </PostListItem>
+    )
+  } else {
+    return (
+      <PostListItem
+        key={i}
+        href={"/blogs/"+PostData[item]['url']}
+        title={PostData[item]['title']}>
+        {PostData[item]['intro']}
+      </PostListItem>
+    )
+  }
+  
+}
+)
 
 export default function Blog() {
   return (
@@ -15,40 +42,7 @@ export default function Blog() {
         
         <PageHeader>Blogs</PageHeader>
 
-        <PostListItem
-            hasBottomPadding
-            href="blogs/lmgroup-brendings"
-            title="LM Group Buve Brendinga Process">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper quam est, eget accumsan purus facilisis non. Nulla a euismod magna. Integer mattis rutrum metus
-        </PostListItem>
-
-        <PostListItem
-            hasBottomPadding
-            href="blogs/lmgroup-brendings"
-            title="LM Group Buve Brendinga Process">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper quam est, eget accumsan purus facilisis non. Nulla a euismod magna. Integer mattis rutrum metus
-        </PostListItem>
-
-        <PostListItem
-            hasBottomPadding
-            href="blogs/lmgroup-brendings"
-            title="LM Group Buve Brendinga Process">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper quam est, eget accumsan purus facilisis non. Nulla a euismod magna. Integer mattis rutrum metus
-        </PostListItem>
-
-        <PostListItem
-            hasBottomPadding
-            href="lmgroup-brendings"
-            title="LM Group Buve Brendinga Process">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper quam est, eget accumsan purus facilisis non. Nulla a euismod magna. Integer mattis rutrum metus
-        </PostListItem>
-
-        <PostListItem
-            href="lmgroup-brendings"
-            title="LM Group Buve Brendinga Process">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper quam est, eget accumsan purus facilisis non. Nulla a euismod magna. Integer mattis rutrum metus
-        </PostListItem>
-
+        {PostDataHtml}
 
         <ContactMeBanner/>
       </div>
