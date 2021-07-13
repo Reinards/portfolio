@@ -1,6 +1,7 @@
 import BlogLayout from '../../layouts/blog-layout'
 import P from "../../components/blog/p"
 import H2 from "../../components/blog/h2"
+import A from "../../components/blog/a"
 import Image from "next/image"
 
 export default function Blog() {
@@ -21,7 +22,7 @@ export default function Blog() {
           
           <br/><br/>
         
-          Viena no lietotnēm ir pieejama apskatei - https://tehnika.saldus.lv <br/>
+          Viena no lietotnēm ir pieejama apskatei - <A>https://tehnika.saldus.lv</A> <br/>
           Ņemot vērā budžetu un to, ka mājaslapa tika paredzēta apskatei TIKAI caur mobilajām ierīcēm kontroles punktos pie apskates objektiem, tā nav saderīga ar lielākiem ekrāniem.
         </P>
         

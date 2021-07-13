@@ -16,10 +16,9 @@ class PostListItem extends Component {
                             <h2 className="accent fw-500 pr3 ma0 pb0">{this.props.title}</h2>
                         </a>
                     </Link>
-                    {/* <p className="ma0 pa0 i">{this.props.date}</p> */}
                     {/* TODO: Share Btn */}
                 </div>
-                <p className="paragraph mt1 mb3 mb4-ns">{this.props.children}</p>
+                <p className="f5 o-80 mt1 mb3 mb4-ns">{this.props.children}</p>
             </div>
         )
     }

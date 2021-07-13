@@ -8,6 +8,7 @@ import PageHeader from '../components/page-header/page-header'
 import DesignTh from "../public/services-design.jpg"
 import WebsiteTh from "../public/services-web.jpg"
 import BrandTh from "../public/services-website.jpg"
+import VideoTh from "../public/services-video.jpg"
 
 export default function Services() {
   return (
@@ -22,33 +23,57 @@ export default function Services() {
 
         <Image src={DesignTh} priority placeholder="blur" blurDataURL={DesignTh} layout="responsive" />
         <p className="paragraph">
-        <span className="accent b">Grafiskis Dizains, UI, UX</span> - Dizains ir valoda, caur kuru iespējams izpaust visdažādākās idejas, norādīt uz darbību vai uzdot jautājumu. Labi pārdomāts dizains ir kā mūzika tavām acīm un smadzenēm. Neviens negrib divas stundas meklēt, kā atvērt navigāciju. Manis piedāvātie pakalpojumi iedalās 3 dažādās apakškategorijās - <b>UI dizains</b> jeb interfeiss, <b>UX dizains</b> jeb lietotāja pieredze, <b>grafiskais dizains</b> (viss pārējais). 
+        <span className="accent b">Grafiskis Dizains</span> - Es varu Tev palīdzēt visos dizaina jautājumos praktiski un konsultāciju formā. Nekad neierobežoju sevi tajā, kādus darbus uzņemos. Pirms es uzsāku strādāt ar klientu, tiek rīkots bezmaksas video zvans vai tikšanās, kuras laikā kopā izrunājam visu par projekta gaitu, nosacījumiem, termiņiem, budžetu un iespējām no manas puses palīdzēt. 
+        
         <br/><br/>
-        UI Dizains - Tas ietver gan mājaslapas dizainu, gan mobilās lietotnes. Tas ir jebkas, kam būs tieša saskarne ar lietotāju digitālā platformā. Sākot ar pogām un beidzot ar pilnas mājaslapas dizaina istrādi. Jebkurš spēj izveidot "dizainu", bet izveidot dizainu, kas ir proporcionāls izmēros, kur krāsas un attēli ir harmonijā viens ar otru, kur tekstu var salasīt un kas strādā gan uz datoriem gan mobilajām ierīcēm ir nepieciešams speciālists.
+        Daži piemēri tam, ko es uzņemos ir:<br/> 
+        * Mājaslapas Dizains/ Mobilās Lietotnes Dizains <br/>
+        * Vizuālā Brenda Identitāte (Logo, Vizītkarte u.c) <br/>
+        * Grafikas Sociālajiem Tīkliem <br/>
+        * Plakāti, Etiķetes, Kartes, Katalogi <br/>
+        * Vektorgrafikas Ilustrācijas / Ikonas <br/>
+        * Foto Rediģēšana
+        <br/><br/>
+
+        Pat ja tas, ko meklē, nav šajā sarakstā, droši raksti man, kopā izskatīsim iespējas.
+        </p>
+
+        <div className="pb5 db"></div>
+
+
+
+        <Image className="mb3" src={BrandTh} priority placeholder="blur" blurDataURL={BrandTh} layout="responsive" />
+        <p className="paragraph">
+        <span className="accent b">Brendings</span> - Pirms stāstīt par to, kā varu palīdzēt, vēlos precizēt to, kas ir brendings, jo sabiedrībā klejo maldinoši uzskati. Brendings ir tavas attiecības ar klientu, tas ir tas, kādu pozīciju tu esi ieņēmis sava klienta prātā un ko viņš par tevi saka citiem. Tas ir tas, kāda ir tava uzņēmuma personība un kā tu to parādi sabiedrībai. Tas NAV tikai logo!
 
         <br/><br/>
-        UX Dizains - Skaists dizains ne vienmēr ir funkcionāls. UX dizaineri pārliecinās par to, ka mājaslapa ir ērti lietojama visiem potenciālajiem klientiem. Tie pārliecinās, ka dizains strādā gan tumšās telpās, gan tiešā saules apgaismojumā un ka arī cilvēki ar invaliditāti spēj izmantot mājaslapu. UX dizains bieži vien tiek pastumts malā, bet tas rezultējas tikai ar aizkaitinātiem un apjukušiem klientiem.
+        Par šo esmu pat uzraksījis veselu rakstu, jo tas ir ļoti psiholoģisks un advancēts process, kuru ne visi spēj novērtēt (tieši visu maldinošo un kļūdaino uzskatu dēļ).<br/><br/>
+        Spied šeit, lai lasītu rakstu un iepazītos ar to, kas ir brendings.
 
         <br/><br/>
-        Cits - Palīdzēšu tev ar logo, vizītkartes, etiķešu, iepakojuma, ilustrācijas izveidi un pat apstrādāt video. Es sevi neierobežoju ar konkrēta veida darbu. Ja kaut kas izklausās interesanti un kaut cik nozīmīgi, esmu gatavs investēt savu laiku, lai atrisinātu tavu radošo problēmu.
+
+        Kā brenda speciālists es Tev varu palīdzēt izveidot brenda stratēģiju (Šī ir tava brenda sirds un dvēsele), izstrādāt vizuālo identitāti un izveidot plānu sociālo tīklu organiskam mārketingam, atbilstoši tava brenda personībai un stratēģijai. Šo visu piedāvāju divos variantos - Individuālu konsultāciju formā kā arī ilgtermiņa projekta formā.
+
+        <br/><br/>
+        Individuālas konsultācijas iesaku tikai tad, ja ir konkrēts jautājums vai arī ja Tev ir iespējas pašam strādāt ar brenda būvēšanu. Ja neesi izglītots par brendu vai arī ja tavā uzņēmumā nav neviens, kas Tev palīdzēs, individuālas konsultācijas būs tikai laika un tavu līdzekļu nelietderīga tērēšana, labāk izmantot manu palīdzību. Es parūpēšos par visa brendinga procesa vadīšanu un veiksmīgu brenda būvēšanu.
         </p>
 
         <div className="pb5 db"></div>
 
         <Image className="mb3" src={WebsiteTh} priority placeholder="blur" blurDataURL={WebsiteTh} layout="responsive" />
         <p className="paragraph">
-        <span className="accent b">Mājaslapu Optimizācija</span> - Ar mājaslapu izstrādi nodarbojos jau 6+ gadus. Esmu pazīstams ar to kodu, visdažādākajām tehnoloģijām un bibliotēkām, iespējām, limitācijām un potenciālām problēmām. Es palīdzēšu Tev saprast, ar ko sākt, kas ir svarīgākais, kur investēt vairāk un kur mazāk līdzekļu. Palīdzēšu gan ar esošu mājaslapu gan vadīt jaunas mājaslapas izstrādi. Galvenais, es pārliecināšos, ka mājaslapa ir tava investīcija nevis tikai izdevums.
-        </p>
-
-        <div className="pb5 db"></div>
-
-        <Image className="mb3" src={BrandTh} priority placeholder="blur" blurDataURL={BrandTh} layout="responsive" />
-        <p className="paragraph">
-        <span className="accent b">Pilna Spektra Brendings</span> - Brends nav tikai logo. Brends nav arī mārketings. Brends ir tavas attiecības ar taviem klientiem. Tas ir kā viņi tevi savos prātos ir "reģistrējuši" un ko par tevi saka citiem. Es strādāju ar brendiem, lai izveidotu stratēģiju, kuras mērķis ir klientu prātos radīt pareizu attēlu par to, kas tu esi, ar ko nodarbojies un kādēļ viņiem izvēlēties tevi nevis tavus konkurentus. Brends ir tas, kas galu galā nosaka vai klients izvēlēsies tevi vai kādu citu. Pat ja tev ir pasaulē labākais produkts, nepareiza komunikācija to cilvēku acīs var padarīt par parastu produktu.
+        <span className="accent b">Mājaslapu Izstrāde & Analītika</span> - Ar mājaslapu izstrādi nodarbojos jau 6+ gadus. Esmu pazīstams ar to kodu, visdažādākajām tehnoloģijām, iespējām, limitācijām un potenciālām problēmām. Es palīdzēšu Tev saprast, ar ko sākt, kas ir svarīgākais, kur investēt vairāk un kur mazāk līdzekļu. Palīdzēšu gan ar esošu mājaslapu gan vadīt jaunas mājaslapas izstrādi. Galvenais, es pārliecināšos, ka mājaslapa ir tava investīcija nevis tikai izdevums.
 
         <br/><br/>
-        Piedāvāju gan individuālas konsultācijas gan ilgtermiņa sadarbību, kuras laikā uzņemos visu atbildību par tava brenda izstrādi sākot ar stratēģiju un identitātes izstrādi, beidzot ar sociālajiem tīkliem, to saturu un apmācībām brenda izstrādē.
+        Papildus mājaslapas izstrādei es piedāvāju piesaistīt Google Analytics vai citus analītikas rīkus lietotāju darbību izpētīšanai mājaslapas optimizēšanai. Izpētīsim, kur lietotāji iesprūst, kur pazūd interese un kādu informāciju tie apskata visvairāk.
         </p>
+
+        {/* <div className="pb5 db"></div> */}
+{/* 
+        <Image className="mb3" src={VideoTh} priority placeholder="blur" blurDataURL={VideoTh} layout="responsive" />
+        <p className="paragraph">
+        <span className="accent b">Video Rediģēšana</span> - Varu Tev palīdzēt gan ar nelielu video apstrādi sociālajiem tīkliem gan apstrādāt garākus video projektiem, konkursiem, mājaslapai un pat mūzikas video.
+        </p> */}
 
         <ContactMeBanner/>
       </div>

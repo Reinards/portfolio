@@ -1,6 +1,7 @@
 import BlogLayout from '../../layouts/blog-layout'
 import P from "../../components/blog/p"
 import H2 from "../../components/blog/h2"
+import A from "../../components/blog/a"
 import Image from "next/image"
 
 export default function Blog() {
@@ -24,8 +25,8 @@ export default function Blog() {
           Šādi izveidotu lietotni ir iespējams ievietot Google Play vai App Store, taču tam nebija ne laika ne līdzekļu. Lietotnes uzģenerēto APK failu jeb instalācijas failu bija iespējams manuāli ievietot Kapelleru Nama planšetdatoros un ieinstalēt.
 
           <br/><br/>
-          Diemžēl no šī projekta bilžu man nav, taču, ja ir interese, šeit links uz kodu:
-          https://github.com/Reinards/skaties-daba
+          Diemžēl no šī projekta bilžu man nav, taču, ja ir interese, šeit links uz kodu: <br/>
+          <A>https://github.com/Reinards/skaties-daba</A>
         </P>
         
         {/* <Image src="/projects/lmg/lmg-4.png" layout="responsive" width="1800" height="1370" placeholder="blur" blurDataURL="/projects/lmg/lmg-4.png" /> */}

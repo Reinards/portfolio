@@ -112,7 +112,8 @@ $blog-container-width-mobile: 95%;
     }
     
     @include bp-min($bp-desktop) {
-        font-size: 22px;
+        font-size: 20px;
+        opacity: 0.95;
     }
 }
 
