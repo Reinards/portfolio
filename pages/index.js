@@ -29,10 +29,10 @@ export default function Home() {
 
             <div className="portfolio-col">
               <div className="portfolio-item v-gap">
-                <ProjectListItem data={Projects.lmg}/>
+                <ProjectListItem data={Projects.storysail}/>
               </div>
               <div className="portfolio-item">
-                <ProjectListItem data={Projects.chalete}/>
+                <ProjectListItem data={Projects.lmg}/>
               </div>
             </div>
 
@@ -47,7 +47,7 @@ export default function Home() {
                 <ProjectListItem data={Projects.tiks}/>
               </div>
               <div className="portfolio-item">
-                <ProjectListItem data={Projects.kapellerunams}/>
+                <ProjectListItem data={Projects.rosaella}/>
               </div>
             </div>
 
@@ -55,30 +55,30 @@ export default function Home() {
           {/* ROW End */}
 
           {/* ROW Start */}
-          {/* <div className="portfolio-row">
+          <div className="portfolio-row">
 
             <div className="portfolio-col">
               <div className="portfolio-item portfolio-item--v2">
-                <ProjectListItem data={Projects.rosaella}/>
-              </div>
-            </div>
-
-            <div className="portfolio-col">
-              <div className="portfolio-item v-gap">
-                <ProjectListItem data={Projects.lmg}/>
-              </div>
-              <div className="portfolio-item">
                 <ProjectListItem data={Projects.chalete}/>
               </div>
             </div>
 
             <div className="portfolio-col">
-              <div className="portfolio-item portfolio-item--v2">
-                <ProjectListItem data={Projects.ommmsome}/>
+              <div className="portfolio-item">
+                <ProjectListItem data={Projects.kapellerunams}/>
               </div>
+              {/* <div className="portfolio-item">
+                <ProjectListItem data={Projects.chalete}/>
+              </div> */}
             </div>
 
-          </div> */}
+            <div className="portfolio-col">
+              {/* <div className="portfolio-item portfolio-item--v2">
+                <ProjectListItem data={Projects.ommmsome}/>
+              </div> */}
+            </div>
+
+          </div>
           {/* ROW End */}
 
 

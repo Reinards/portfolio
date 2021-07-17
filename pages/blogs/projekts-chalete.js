@@ -9,7 +9,8 @@ export default function Blog() {
     metaTitle="Par Projektu Chalete | reinards.lv"
     title="Par Projektu Chalete">
 
-        <Image src="/projects/chalete/chalete-2.png" layout="responsive" width="1280" height="900" placeholder="blur" blurDataURL="/projects/chalete/chalete-2.png" />
+        <Image src="/projects/chalete/chalete-2.png" layout="responsive" width="1920" height="1280" placeholder="blur" blurDataURL="/projects/chalete/chalete-2.png" />
+        <Image src="/projects/chalete/chalete-3.png" layout="responsive" width="1920" height="800" placeholder="blur" blurDataURL="/projects/chalete/chalete-3.png" />
         
         <P>
           Chalete ir kompānija, kura Latvijā izplata kokapstrādes produktus - eļļas, lakas, krāsas u.c. Šis ir jauns uzņēmums, līdz ar to ir nepieciešams strādāt gan pie mājaslapas gan pie brenda, gan produktu etiķetēm, katalogiem un visa pārējā, kas jaunam uzņēmumam nepieciešams, lai sevi parādītu kā ekspertu.

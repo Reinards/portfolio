@@ -18,7 +18,7 @@ class BlogLayout extends Component {
                 <Navbar/>
 
                 <Head>
-                    <title>{this.props.metaTitle}</title>
+                    <title>{this.props.title} | reinards.lv</title>
                 </Head>
 
                 <div className="blog-container">

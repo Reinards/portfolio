@@ -45,11 +45,20 @@
         "show-href": 0
     },
     "rosaella": {
-        "projectHref": "https://reinards.lv",
-        "title": "Rosaella EKO Skrubji",
+        "projectHref": "/blogs/projekts-rosaella",
+        "title": "Rosaella",
         "show-title": 1,
         "show-tint": 1,
-        "url": "https://images.pexels.com/photos/3604314/pexels-photo-3604314.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "url": "rosaella/rosaella-1.png",
+        "href": "",
+        "show-href": 0
+    },
+    "storysail": {
+        "projectHref": "/blogs/projekts-storysail",
+        "title": "StorySail",
+        "show-title": 1,
+        "show-tint": 1,
+        "url": "storysail/storysail-1.png",
         "href": "",
         "show-href": 0
     },

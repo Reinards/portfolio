@@ -14,7 +14,7 @@ class Navbar extends Component {
                 {/* <div className="toggleWrap">bars</div> */}
                 <div className="flex justify-center items-center pa4">
                     <LinkPlus href="/" exact activeClassName={css.active}>
-                        <a className={css.link+" f6"}>Sākums</a>
+                        <a className={css.link+" f6"}>Projekti</a>
                     </LinkPlus>
                     <LinkPlus href="/pakalpojumi" exact activeClassName={css.active}>
                         <a className={css.link+" f6"}>Pakalpojumi</a>

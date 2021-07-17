@@ -9,6 +9,9 @@ export default function Blog() {
     metaTitle="Projekts Veģetatīvās Distonijas Centrs | reinards.lv"
     title="Projekts Veģetatīvās Distonijas Centrs">
 
+        <Image src="/projects/vdc/vdc-1.png" layout="responsive" width="1920" height="1280" placeholder="blur" blurDataURL="/projects/vdc/vdc-1.png" />
+        <Image src="/projects/vdc/vdc-5.png" layout="responsive" width="1920" height="800" placeholder="blur" blurDataURL="/projects/vdc/vdc-5.png" />
+
         <P>
           Veģetatīvās Distonijas Centrs ir viens no labākajiem piemēriem citiem uzņēmumiem, ja runājam par mājaslapas izveidi. VDC savu mājaslapu ir pārveidojuši vairāk kā 3 reizes pēdējo 4 gadu laikā. Kādēļ? Tādēļ ka mājaslapa visu laiku tiek pielāgota, lai labāk rezonētu ar klientiem. Tiek veiktas aptaujas un ievāktas atsauksmes par to, cik viegli vai sarežģīti klientam ir izmantot mājaslapu.
           
