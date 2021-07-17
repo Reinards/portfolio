@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import PostListItem from '../components/blog/post-list-item'
-import DefaultLayout from '../layouts/default-layout'
-import ContactMeBanner from "../components/contact-me-banner/contact-me-banner"
-import PageHeader from '../components/page-header/page-header'
-import PostData from "../data/posts.json";
+import PostListItem from '../../components/blog/post-list-item'
+import DefaultLayout from '../../layouts/default-layout'
+import ContactMeBanner from "../../components/contact-me-banner/contact-me-banner"
+import PageHeader from '../../components/page-header/page-header'
+import PostData from "../../data/posts.json";
 
 let PostDataHtml = Object.keys(PostData).map((item, i) => {
   

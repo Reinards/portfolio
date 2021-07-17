@@ -11,20 +11,39 @@ class ProjectListItem extends Component {
     }
 
     render() {
-        return (
-            <Link href={this.props.data.projectHref}>
-                <a className={css.wrapper} style={{
-                    backgroundImage: "url('/projects/"+ this.props.data.url +"')"
-                }}>
-                    <div className={css.tint}></div>
-                    <h2 className={css.title}>{this.props.data.title}</h2>
-                    <span className={css.link}>{this.props.data.href}</span>
-                    <div className={css.hover}>
-                        <Image src={Book}/>
-                    </div>
-                </a>
-            </Link>
-        )
+
+        if (this.props.en) {
+            return (
+                <Link href={this.props.data.projectHref}>
+                    <a className={css.wrapper} style={{
+                        backgroundImage: "url('/projects/"+ this.props.data.url +"')"
+                    }}>
+                        <div className={css.tint}></div>
+                        <h2 className={css.title}>{this.props.data["title-en"]}</h2>
+                        <span className={css.link}>{this.props.data.href}</span>
+                        <div className={css.hover}>
+                            <Image src={Book}/>
+                        </div>
+                    </a>
+                </Link>
+            )
+        }else {
+            return (
+                <Link href={this.props.data.projectHref}>
+                    <a className={css.wrapper} style={{
+                        backgroundImage: "url('/projects/"+ this.props.data.url +"')"
+                    }}>
+                        <div className={css.tint}></div>
+                        <h2 className={css.title}>{this.props.data.title}</h2>
+                        <span className={css.link}>{this.props.data.href}</span>
+                        <div className={css.hover}>
+                            <Image src={Book}/>
+                        </div>
+                    </a>
+                </Link>
+            )
+        }
+
     }
 }
 

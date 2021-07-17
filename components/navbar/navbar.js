@@ -9,22 +9,49 @@ class Navbar extends Component {
     }
 
     render() {
-        return (
-            <nav id={css.navbar}>
-                {/* <div className="toggleWrap">bars</div> */}
-                <div className="flex justify-center items-center pa4">
-                    <LinkPlus href="/" exact activeClassName={css.active}>
-                        <a className={css.link+" f6"}>Projekti</a>
-                    </LinkPlus>
-                    <LinkPlus href="/pakalpojumi" exact activeClassName={css.active}>
-                        <a className={css.link+" f6"}>Pakalpojumi</a>
-                    </LinkPlus>
-                    <LinkPlus href="/blogs" activeClassName={css.active}>
-                        <a className={css.link+" f6"}>Blogs</a>
-                    </LinkPlus>
-                </div>
-            </nav>
-        )
+
+        if (this.props.en) {
+            return (
+                <nav id={css.navbar}>
+                    {/* <div className="toggleWrap">bars</div> */}
+                    <div className="flex justify-center items-center pa4">
+                        <LinkPlus href="/en/" exact activeClassName={css.active}>
+                            <a className={css.link+" f6"}>Portfolio</a>
+                        </LinkPlus>
+                        <LinkPlus href="/en/services/" exact activeClassName={css.active}>
+                            <a className={css.link+" f6"}>Services</a>
+                        </LinkPlus>
+                        <LinkPlus href="/en/blog/" activeClassName={css.active}>
+                            <a className={css.link+" f6"}>Blog</a>
+                        </LinkPlus>
+                        <LinkPlus href="/lv/" activeClassName={css.active}>
+                            <a className={css.link+" f6"}>Lv</a>
+                        </LinkPlus>
+                    </div>
+                </nav>
+            )
+        }else {
+            return (
+                <nav id={css.navbar}>
+                    {/* <div className="toggleWrap">bars</div> */}
+                    <div className="flex justify-center items-center pa4">
+                        <LinkPlus href="/lv" exact activeClassName={css.active}>
+                            <a className={css.link+" f6"}>Projekti</a>
+                        </LinkPlus>
+                        <LinkPlus href="/lv/pakalpojumi/" exact activeClassName={css.active}>
+                            <a className={css.link+" f6"}>Pakalpojumi</a>
+                        </LinkPlus>
+                        <LinkPlus href="/lv/blogs/" activeClassName={css.active}>
+                            <a className={css.link+" f6"}>Blogs</a>
+                        </LinkPlus>
+                        <LinkPlus href="/en" activeClassName={css.active}>
+                            <a className={css.link+" f6"}>En</a>
+                        </LinkPlus>
+                    </div>
+                </nav>
+            )
+        }
+
     }
 }
 

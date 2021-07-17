@@ -1,10 +1,12 @@
 import Head from 'next/head'
-import DefaultLayout from '../layouts/default-layout'
-import ContactMeBanner from "../components/contact-me-banner/contact-me-banner"
-import PageHeader from "../components/page-header/page-header";
-import ProjectListItem from '../components/projects/project-list-item'
+import Link from 'next/link'
+import Navbar from '../../components/navbar/navbar'
+import DefaultLayout from '../../layouts/default-layout'
+import ContactMeBanner from "../../components/contact-me-banner/contact-me-banner"
+import PageHeader from "../../components/page-header/page-header";
+import ProjectListItem from '../../components/projects/project-list-item'
 
-import Projects from "../data/projects.json"
+import Projects from "../../data/projects.json"
 
 export default function Home() {
   return (

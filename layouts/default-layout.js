@@ -10,13 +10,25 @@ class DefaultLayout extends Component {
     }
 
     render() {
-        return (
-            <div id="layout">
-                <Navbar/>
-                {this.props.children}
-                <Footer/>
-            </div>
-        )
+
+        if (this.props.en) {
+            return (
+                <div id="layout">
+                    <Navbar en/>
+                    {this.props.children}
+                    <Footer en/>
+                </div>
+            )
+        }else {
+            return (
+                <div id="layout">
+                    <Navbar/>
+                    {this.props.children}
+                    <Footer/>
+                </div>
+            )
+        }
+
     }
 }
 

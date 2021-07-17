@@ -1,16 +1,18 @@
 import Head from 'next/head'
-import DefaultLayout from '../layouts/default-layout'
-import ContactMeBanner from "../components/contact-me-banner/contact-me-banner"
-import PageHeader from "../components/page-header/page-header";
-import ProjectListItem from '../components/projects/project-list-item'
+import Link from 'next/link'
+import Navbar from '../../components/navbar/navbar'
+import DefaultLayout from '../../layouts/default-layout'
+import ContactMeBanner from "../../components/contact-me-banner/contact-me-banner"
+import PageHeader from "../../components/page-header/page-header";
+import ProjectListItem from '../../components/projects/project-list-item'
 
-import Projects from "../data/projects.json"
+import Projects from "../../data/projects.json"
 
 export default function Home() {
   return (
-    <DefaultLayout>
+    <DefaultLayout en>
       <Head>
-        <title>Reinards.lv - Sākumlapa</title>
+        <title>Project List | reinards.lv</title>
       </Head>
 
       <div className="main-container">
@@ -27,25 +29,25 @@ export default function Home() {
 
             <div className="portfolio-col">
               <div className="portfolio-item v-gap">
-                <ProjectListItem data={Projects.storysail}/>
+                <ProjectListItem en data={Projects.storysail}/>
               </div>
               <div className="portfolio-item">
-                <ProjectListItem data={Projects.lmg}/>
+                <ProjectListItem en data={Projects.lmg}/>
               </div>
             </div>
 
             <div className="portfolio-col">
               <div className="portfolio-item portfolio-item--v2">
-                <ProjectListItem data={Projects.vdc}/>
+                <ProjectListItem en data={Projects.vdc}/>
               </div>
             </div>
 
             <div className="portfolio-col">
               <div className="portfolio-item v-gap">
-                <ProjectListItem data={Projects.tiks}/>
+                <ProjectListItem en data={Projects.tiks}/>
               </div>
               <div className="portfolio-item">
-                <ProjectListItem data={Projects.rosaella}/>
+                <ProjectListItem en data={Projects.rosaella}/>
               </div>
             </div>
 
@@ -57,13 +59,13 @@ export default function Home() {
 
             <div className="portfolio-col">
               <div className="portfolio-item portfolio-item--v2">
-                <ProjectListItem data={Projects.chalete}/>
+                <ProjectListItem en data={Projects.chalete}/>
               </div>
             </div>
 
             <div className="portfolio-col">
               <div className="portfolio-item">
-                <ProjectListItem data={Projects.kapellerunams}/>
+                <ProjectListItem en data={Projects.kapellerunams}/>
               </div>
               {/* <div className="portfolio-item">
                 <ProjectListItem data={Projects.chalete}/>
@@ -82,7 +84,7 @@ export default function Home() {
 
         </div>
 
-        <ContactMeBanner/>
+        <ContactMeBanner en/>
       </div>
 
 

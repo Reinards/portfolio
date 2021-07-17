@@ -2,6 +2,7 @@
     "vdc": {
         "projectHref": "/blogs/projekts-vdc",
         "title": "Veģetatīvās Distonijas Centrs",
+        "title-en": "Vegetative Dystonia Center",
         "show-title": 1,
         "show-tint": 1,
         "url": "vdc/vdc-1.jpg",
@@ -11,6 +12,7 @@
     "chalete": {
         "projectHref": "/blogs/projekts-chalete",
         "title": "Chalete",
+        "title-en": "Chalete",
         "show-title": 1,
         "show-tint": 1,
         "url": "chalete/chalete-1.png",
@@ -20,6 +22,7 @@
     "lmg": {
         "projectHref": "/blogs/projekts-lmg",
         "title": "LM Group Buve",
+        "title-en": "LM Group Buve",
         "show-title": 1,
         "show-tint": 1,
         "url": "lmg/lmg-6.jpg",
@@ -29,6 +32,7 @@
     "tiks": {
         "projectHref": "/blogs/projekts-tiks",
         "title": "Saldus TIKS Centrs",
+        "title-en": "Saldus Tourism Center",
         "show-title": 1,
         "show-tint": 1,
         "url": "tiks/tiks-1.png",
@@ -38,6 +42,7 @@
     "kapellerunams": {
         "projectHref": "/blogs/projekts-kapelleru-nams",
         "title": "Kapelleru Nams",
+        "title-en": "Kapelleru House",
         "show-title": 1,
         "show-tint": 1,
         "url": "kapellerunams/kapellerunams-1.png",
@@ -47,6 +52,7 @@
     "rosaella": {
         "projectHref": "/blogs/projekts-rosaella",
         "title": "Rosaella",
+        "title-en": "Rosaella",
         "show-title": 1,
         "show-tint": 1,
         "url": "rosaella/rosaella-1.png",
@@ -56,6 +62,7 @@
     "storysail": {
         "projectHref": "/blogs/projekts-storysail",
         "title": "StorySail",
+        "title-en": "StorySail",
         "show-title": 1,
         "show-tint": 1,
         "url": "storysail/storysail-1.png",
@@ -65,6 +72,7 @@
     "ommmsome": {
         "projectHref": "https://reinards.lv",
         "title": "Ommmsome",
+        "title-en": "Ommmsome",
         "show-title": 1,
         "show-tint": 1,
         "url": "https://ommmsome.com/wp-content/uploads/2021/05/linked-in-642x1024.jpg",
