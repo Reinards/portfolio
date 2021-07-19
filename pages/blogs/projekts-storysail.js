@@ -14,11 +14,18 @@ export default function Blog() {
         <Image src="/projects/storysail/storysail-3.png" layout="responsive" width="1920" height="800" placeholder="blur" blurDataURL="/projects/storysail/storysail-3.png" />
 
         <P>
-          StorySail ir konceptuāla premium brendinga kompānija. Šajā projektā tika izstrādāts StorySail brends, vizuālā identitāte un mājaslapa.
+          StorySail ir konceptuāla premium klases brendinga kompānija. Šajā projektā tika izstrādāta StorySail brenda stratēģija, vizuālā identitāte un mājaslapa.
           Šī ir kompānija, kas saviem klientiem sniedz brendinga pakalpojumus - viss sākot ar stratēģiju un beidzot ar mārketingu. 
           <br/><br/>
-          Kompānijas interesēs ir sniegt pēc iespējas kvalitatīvāku pakalpojumu un piesaistīt "lielus" klientus, tādēļ arī tās tēls ir prestižs un liecina par kvalitāti. Viens no svarīgākajiem elementiem, kas piedalās šīs prestižās sajūtas veidošanā ir zelta krāsa, kas tiek izmantota gan logo gan mājaslapā, gan visos citos nākotnes medijos, piemēram uz vizītkartes vai dokumentos.
-
+          Kompānijas interesēs ir sniegt pēc iespējas kvalitatīvāku pakalpojumu un piesaistīt "lielus" klientus, tādēļ arī tās tēls ir prestižs un liecina par profesionalitāti. Viens no svarīgākajiem elementiem, kas piedalās šīs prestižās sajūtas veidošanā ir zelta krāsa, kas tiek izmantota gan logo gan mājaslapā, gan visos citos nākotnes medijos, piemēram uz vizītkartes vai dokumentos.
+          <br/><br/>
+          Brenda stratēģija vienkāršotā valodā nozīmē izveidot personalitāti. Šādi izskatās StorySail personalitāte: 
+          <br/><br/>
+          Šai kompānijai ir nozīmīga loma tās klientu dzīvēs - būt par uzticamu sadarbības partneri biznesa attīstīšanai. Brendings nav joka lieta. Paviršs brendings var sabojāt kompānijas reputāciju un zaudēt klientus, tādēļ ir svarīgi, ka brendingu veic uzticami un profesionāli cilvēki. StorySail ir šis uzticamais partneris. 
+          <br/><br/>
+          Kompānijas misija ir strādāt ar brendiem, kas vēlas attīstīties un kas novērtē attiecību kopšanu. Šādas misijas ietekme uz kopējo "bildi" pasaulē ir diezgan liela. Mūsdienās ir daudz lielu uzņēmumu, kam nerūp to klienti emocionālā līmenī - tie ir tikai naudas slaukšanas aparāts. Šādas kompānijas nekādā veidā nepiedalās labākas pasaules veidošanā. StorySail strādā ar brendiem, lai šo problēmu samazinātu, jo lielām kompānijām ir liela ietekme un iespēja rosināt pārmaiņas globālā vidē, tādēļ ir svarīgi, ka šis spēks tiek piekopts un izmantots atbildīgi.
+          <br/><br/>
+          Kā jau minēju, StorySail ir premium klases brendinga kompānija, tādēļ sniegtais pakalpojums vienmēr ir augstākajā kvalitātē, vienmēr tiek ieteikts labākais risinājums un rasti kompromisi. Godīgums, atvērtība un lojalitāte tiek vērtēts ļoti augstu.
         </P>
 
         <br/><br/>
@@ -26,13 +33,13 @@ export default function Blog() {
         <Image src="/projects/storysail/storysail-colors2.png" layout="responsive" width="1920" height="882" placeholder="blur" blurDataURL="/projects/storysail/storysail-colors2.png" />
         <H2>Krāsu Palete</H2>
         <P>
-        StorySail krāsu palete sastāv no diviem zelta krāsas toņiem, gandrīz melnas un baltas. Zeltam ir daudz un dažādu iespējamo toņu. Šajā gadījumā tiek izmantots tonis, kas izskatās nedaudz dabīgāks un ne tik ļoti dzeltens.
+        StorySail krāsu palete sastāv no diviem zelta krāsas toņiem, gandrīz melnas un baltas krāsas. Zeltam ir daudz un dažādu iespējamo toņu. Šajā gadījumā tiek izmantots tonis, kas izskatās nedaudz dabīgāks un ne tik ļoti dzeltens.
         </P>
 
         <P>
         Krāsu paletes mēdz sastāvēt arī no sekundārās jeb akcenta krāsas, kas komplimentē primāro. StorySail brenda identitāte ir diezgan minimāla un tādēļ sekundārā krāsa tiktu izmantota diezgan reti, tādēļ šeit nav norādīta.
         <br/><br/>
-        Ja mēs apsvērtu potenciālus variantus, tad ar šo krāsu diezgan labi sader tumši violets, tumši zils un tumši sarkans. Jebkura no šīm 3 krāsām palīdzēs un papildinās prestižas sajūtas rašanos.
+        Ja mēs apsvērtu potenciālus variantus, tad ar šo krāsu diezgan labi sader tumši violets, tumši zils un tumši sarkans. Jebkura no šīm 3 krāsām palīdzēs un papildinās prestiža sajūtas rašanos.
         </P>
         <br/><br/>
 

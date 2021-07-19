@@ -35,7 +35,7 @@ export default function Blog() {
   return (
     <DefaultLayout>
       <Head>
-        <title>Reinards.lv - Blogs</title>
+        <title>Blogs | reinards.lv</title>
       </Head>
 
       <div className="main-container">

@@ -4,15 +4,25 @@
         "intro": "Arī celtniecības kompānijām ir vērts izveidot mājaslapu un būt sociālajos tīklos.",
         "url": "projekts-lmg"
     },
+    "vdc": {
+        "title": "Projekts Veģetatīvās Distonijas Centrs",
+        "intro": "Responsīvs Logo. Pieejamības Testi un WEB Izstrāde.",
+        "url": "projekts-vdc"
+    },
     "chalete": {
         "title": "Par Projektu Chalete",
         "intro": "Sākot ar online katalogu un beidzot ar Shopify eCommerce.",
         "url": "projekts-chalete"
     },
-    "vdc": {
-        "title": "Projekts Veģetatīvās Distonijas Centrs",
-        "intro": "Responsīvs Logo. Pieejamības Testi un WEB Izstrāde.",
-        "url": "projekts-vdc"
+    "storysail": {
+        "title": "StorySail Brenda Koncepts",
+        "intro": "Premium klases brendinga kompānija.",
+        "url": "projekts-storysail"
+    },
+    "rosaella": {
+        "title": "Rosaella Brenda Koncepts",
+        "intro": "Ekoloģisku skrubju brendings. Mājaslapa.",
+        "url": "projekts-rosaella"
     },
     "tiks": {
         "title": "Saldus TIKS Lietotņu Izstrāde",
@@ -20,7 +30,7 @@
         "url": "projekts-tiks"
     },
     "kapellerunams": {
-        "title": "Kapelleru Nama Projekts - Mobilās Lietotnes Izstrāde",
+        "title": "Kapelleru Nams - Mobilās Lietotnes Izstrāde",
         "intro": "Alternatīvs veids kā izstrādāt mobilās lietotnes.",
         "url": "projekts-kapelleru-nams"
     }

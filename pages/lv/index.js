@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <DefaultLayout>
       <Head>
-        <title>Reinards.lv - Sākumlapa</title>
+        <title>Mani Projekti | reinards.lv</title>
       </Head>
 
       <div className="main-container">
@@ -44,10 +44,10 @@ export default function Home() {
 
             <div className="portfolio-col">
               <div className="portfolio-item v-gap">
-                <ProjectListItem data={Projects.tiks}/>
+                <ProjectListItem data={Projects.rosaella}/>
               </div>
               <div className="portfolio-item">
-                <ProjectListItem data={Projects.rosaella}/>
+                <ProjectListItem data={Projects.chalete}/>
               </div>
             </div>
 
@@ -59,13 +59,13 @@ export default function Home() {
 
             <div className="portfolio-col">
               <div className="portfolio-item portfolio-item--v2">
-                <ProjectListItem data={Projects.chalete}/>
+                <ProjectListItem data={Projects.kapellerunams}/>
               </div>
             </div>
 
             <div className="portfolio-col">
               <div className="portfolio-item">
-                <ProjectListItem data={Projects.kapellerunams}/>
+                <ProjectListItem data={Projects.tiks}/>
               </div>
               {/* <div className="portfolio-item">
                 <ProjectListItem data={Projects.chalete}/>

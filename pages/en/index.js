@@ -44,10 +44,10 @@ export default function Home() {
 
             <div className="portfolio-col">
               <div className="portfolio-item v-gap">
-                <ProjectListItem en data={Projects.tiks}/>
+                <ProjectListItem en data={Projects.rosaella}/>
               </div>
               <div className="portfolio-item">
-                <ProjectListItem en data={Projects.rosaella}/>
+                <ProjectListItem en data={Projects.chalete}/>
               </div>
             </div>
 
@@ -59,13 +59,13 @@ export default function Home() {
 
             <div className="portfolio-col">
               <div className="portfolio-item portfolio-item--v2">
-                <ProjectListItem en data={Projects.chalete}/>
+                <ProjectListItem en data={Projects.kapellerunams}/>
               </div>
             </div>
 
             <div className="portfolio-col">
               <div className="portfolio-item">
-                <ProjectListItem en data={Projects.kapellerunams}/>
+                <ProjectListItem en data={Projects.tiks}/>
               </div>
               {/* <div className="portfolio-item">
                 <ProjectListItem data={Projects.chalete}/>

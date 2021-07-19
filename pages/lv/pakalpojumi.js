@@ -16,7 +16,7 @@ export default function Services() {
   return (
     <DefaultLayout>
       <Head>
-        <title>Reinards.lv - Pakalpojumi</title>
+        <title>Pakalpojumi | reinards.lv</title>
       </Head>
 
       <div className="main-container">

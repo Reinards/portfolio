@@ -9,31 +9,34 @@ export default function Blog() {
     metaTitle="LM Group Buve Brendings un Mājaslapas Izstrāde | reinards.lv"
     title="LM Group Buve Brendings un Mājaslapas Izstrāde">
 
-        <Image src="/projects/lmg/cup.jpeg" layout="responsive" width="2400" height="1600" placeholder="blur" blurDataURL="/projects/lmg/cup.jpeg" />
+        <Image src="/projects/lmg/lmg-8.png" layout="responsive" width="1920" height="1280" placeholder="blur" blurDataURL="/projects/lmg/lmg-8.png" />
+        <Image src="/projects/lmg/lmg-7.png" layout="responsive" width="1920" height="800" placeholder="blur" blurDataURL="/projects/lmg/lmg-7.png" />
         <P>
           Pēdējo 3 gadu laikā, sadarbojoties ar LM Group Buve, mēs esam veikuši vairākus veiksmīgus projektus, kuri visi ir attīstījuši kompānijas digitālo aspektu. Esam veikuši mājaslapas izstrādi, vizuālās identitātes izveidi, sociālo tīklu mārketinga kampaņas, konkursus un arī esam strādājuši ar brenda būvēšanu.
         </P>
         
+        <Image src="/projects/lmg/cup.jpeg" layout="responsive" width="2400" height="1600" placeholder="blur" blurDataURL="/projects/lmg/cup.jpeg" />
         <H2>Brendings</H2>
         <P>
           Brendinga darbus uzsākām 2021. gada aprīlī. Kompānija nekad iepriekš neko tādu nebija darījusi tādēļ mums brends ir jāveido no nulles. Tas nozīmē to, ka jāsāk ar fundementāliem jautājumiem, piemēram, "Kādu lomu tavs bizness spēlē tavu klientu dzīvē?". Ticiet vai nē, taču atbildēt uz šo jautājumu ir svarīgi! Jebkura veiksmīga biznesa pamatā ir cilvēku sāpe, vajadzība vai problēma kas tiek atrisināta. Ja bizness tiek veidots, vadīts un attīstīts tikai ar mērķi pelnīt naudu, tas nav bizness, kas spēs pielāgoties, laikiem ejot. Tas nav bizness, kas būvēts ap cilvēku, bet bez cilvēka neviens bizness nepastāvētu.
           
           <br/><br/>
           
-          Brendinga mērķis ir izveidot tēlu, personību biznesam. Personību, kas rezonē ar taviem klientiem. Kad šī personība ir izveidota, var ķerties tālāk un veidot stratēģiju, ar kuras palīdzību šo personību var "ielikt" cilvēku prātos. Viss sākot ar vizuālo tēlo, reklāmu tekstiem, cenām, audio, auto uzlīmēm, darbinieku manierēm, ofisa plānojumu - viss piedalās šīs personības izpaušanā.
+          Brendinga mērķis ir izveidot tēlu, personību biznesam. Personību, kas rezonē ar taviem klientiem. Kad šī personība ir izveidota, var ķerties tālāk un veidot stratēģiju, ar kuras palīdzību šo personību var "ielikt" cilvēku prātos. Viss sākot ar vizuālo tēlu, reklāmu tekstiem, cenām, audio, auto uzlīmēm, darbinieku manierēm, ofisa plānojumu - viss piedalās šīs personības izpaušanā.
           
           <br/><br/>
-          LM Group Buve brendings vēl ir procesā, tādēļ man nav daudz ko rakstīt par konkrēto projektu. Ja vēlies, vari izlasīt šo rakstu, kurā aprakstu visu, kas Tev kā uzņēmējam jāzina par brendingu un par to, kā es strādāju ar saviem klientiem.
+          LM Group Buve brendings vēl ir procesā, tādēļ informācija vēl tiks papildināta.
         </P>        
         
         <br/><br/>
 
         <Image src="/projects/lmg/lmg-2.png" layout="responsive" width="1000" height="1000" placeholder="blur" blurDataURL="/projects/lmg/lmg-2.png" />
+        <Image src="/projects/lmg/lmg-colors.png" layout="responsive" width="1280" height="338" placeholder="blur" blurDataURL="/projects/lmg/lmg-colors.png" />
         
         <H2>Vizuālā Identitāte</H2>
         
         <P>
-          Parasti, es ieteiktu šo soli veikt tikai pēc pilnīgas brenda stratēģijas izstrādes, taču tajā laikā mums nebija iespējas strādāt ar brendu un kompānijai pat nebija logo faila, ko ievietot mājaslapā. Šis bija izņēmums. Lai zinātu, kādu identitāti veidot, tika uzdoti vairāki jautājumi, lai saprastu, kāda identitāte visvairāk rezonētu ar kompānijas pašreizējiem klientiem. Mēs nonācām pie tēla, kas ir draudzīgs, bet profesionāls, uzmanību piesaistošs, bet tajā pašā laikā formāls. Tēls, kas ir piesaistošs ģimenēm un cilvēkiem, kam ir svarīgs komforts mājās.
+          Parasti, es ieteiktu šo soli veikt tikai pēc pilnīgas brenda stratēģijas izstrādes, taču tajā laikā, 2020. gada sākumā, mums nebija iespējas strādāt ar brendu un kompānijai pat nebija logo faila, ko ievietot mājaslapā. Šis bija izņēmums. Lai zinātu, kādu identitāti veidot, tika uzdoti vairāki jautājumi, lai saprastu, kāda identitāte visvairāk rezonētu ar kompānijas pašreizējiem klientiem. Mēs nonācām pie tēla, kas ir draudzīgs, bet profesionāls, uzmanību piesaistošs, bet tajā pašā laikā formāls. Tēls, kas ir piesaistošs ģimenēm un cilvēkiem, kam ir svarīgs komforts mājās.
           
           <br/><br/>
           
@@ -43,11 +46,9 @@ export default function Blog() {
           
           Papildus krāsu paletei tika  atlasīts primārais un sekundārais fonts, tika izveidots logo, vizītkarte, dizaini auto uzlīmēm un citiem aksesuāriem, piemēram, krūzēm.
         </P>
-        
-        <Image src="/projects/lmg/lmg-3.png" layout="responsive" width="1000" height="1000" placeholder="blur" blurDataURL="/projects/lmg/lmg-3.png" />
-        <br/><br/>
 
-        <Image src="/projects/lmg/lmg-4.png" layout="responsive" width="1800" height="1370" placeholder="blur" blurDataURL="/projects/lmg/lmg-4.png" />
+
+        <Image src="/projects/lmg/lmg-3.png" layout="responsive" width="1000" height="1000" placeholder="blur" blurDataURL="/projects/lmg/lmg-3.png" />
         <H2>Mājaslapa</H2>
         
         <P>

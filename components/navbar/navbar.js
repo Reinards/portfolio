@@ -21,12 +21,12 @@ class Navbar extends Component {
                         <LinkPlus href="/en/services/" exact activeClassName={css.active}>
                             <a className={css.link+" f6"}>Services</a>
                         </LinkPlus>
-                        <LinkPlus href="/en/blog/" activeClassName={css.active}>
+                        <LinkPlus href="/blogs/" activeClassName={css.active}>
                             <a className={css.link+" f6"}>Blog</a>
                         </LinkPlus>
-                        <LinkPlus href="/lv/" activeClassName={css.active}>
+                        {/* <LinkPlus href="/lv/" activeClassName={css.active}>
                             <a className={css.link+" f6"}>Lv</a>
-                        </LinkPlus>
+                        </LinkPlus> */}
                     </div>
                 </nav>
             )
@@ -44,9 +44,9 @@ class Navbar extends Component {
                         <LinkPlus href="/lv/blogs/" activeClassName={css.active}>
                             <a className={css.link+" f6"}>Blogs</a>
                         </LinkPlus>
-                        <LinkPlus href="/en" activeClassName={css.active}>
+                        {/* <LinkPlus href="/en" activeClassName={css.active}>
                             <a className={css.link+" f6"}>En</a>
-                        </LinkPlus>
+                        </LinkPlus> */}
                     </div>
                 </nav>
             )
